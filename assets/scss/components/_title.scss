@@ -1,0 +1,42 @@
+/*----------------------------------------*/
+/*  06. TITLE CSS START
+/*----------------------------------------*/
+
+
+.sec {
+  &-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--black);
+    font-family: $secondary_font;
+
+    @media #{$xl} {
+      font-size: 40px;
+    }
+
+    @media #{$lg} {
+      font-size: 36px;
+    }
+
+    @media #{$sm} {
+      font-size: 30px;
+    }
+
+    span {
+      color: var(--primary);
+    }
+  }
+
+
+
+  &-subtitle {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: var(--primary);
+    font-family: $secondary_font;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 Template">
+
+  <!-- Site Title -->
+  <title>Product Details</title>
+
+  <!-- Site Favicon -->
+  <link rel="shortcut icon" href="assets/imgs/logo/favicon.png" type="image/x-icon">
+
+ <!-- All CSS Files -->
+ <link rel="stylesheet" href="assets/css/all.min.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+ <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+ <link rel="stylesheet" href="assets/css/magnifi.css">
+ <link rel="stylesheet" href="assets/css/aos.css">
+ <link rel="stylesheet" href="assets/css/master.css">
+ <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+  
+    <!-- Sroll to top -->
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__inner">
+      <div class="offcanvas__top">
+        <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+        <button id="offcanvas_close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="offcanvas__menu">
+        <div class="offcanvas-menu">
+          <ul>
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Service</a>
+            </li>
+            <li><a href="#">portfolio</a>
+            </li>
+            <li><a href="#">team</a>
+            </li>
+            <li><a href="#">blog</a>
+            </li>
+            <li><a href="#">others</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+  <!-- Cart area start -->
+  <div class="offcanvas offcanvas-end cart__offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">SHOPPING CART</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="cart__list">
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+      </div>
+
+      <div class="cart__other">
+        <p>SUBTOTAL:  <span>$121.00</span></p>
+        <a href="">view cart</a>
+        <a href="">checkout</a>
+      </div>
+    </div>
+  </div>
+  <!-- Cart area end -->
+  <!-- Header area start -->
+  <header class="header__area-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="header__inner">
+            <div class="header__left">
+              <div class="header__logo">
+                <a href="">
+                  <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+                </a>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__btm">
+                <div class="header__menu">
+                  <div class="main-menu">
+                    <ul>
+                      <li class="has-dropdown"><a href="#">Home</a>
+                        <ul class="main-dropdown">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="index-2.html">home 2</a></li>
+                          <li><a href="index-3.html">home 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-dropdown"><a href="#">courses</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="about.html">About</a>
+                      </li>
+                      <li class="has-dropdown"><a href="#">pages</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blog-listing.html">Blog v.2</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                          <li><a href="product-details.html">Shop Details</a></li>
+                          <li><a href="team.html">team</a></li>
+                          <li><a href="faq.html">Faq</a></li>
+                          <li><a href="contact.html">contact</a></li>
+                          <li><a href="gallary.html">Gallary</a></li>
+                          <li><a href="404.html">404</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header__other">
+                  <div class="header__lang">
+                    <div class="dropdown">
+                      <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Eng</button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Eng</a></li>
+                        <li><a class="dropdown-item" href="#">France</a></li>
+                        <li><a class="dropdown-item" href="#">spanish</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="header__cart">
+                    <button class="cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </div>
+                  <div class="header__search">
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="search-close"><i class="fa-solid fa-xmark"></i></button>
+                  </div>
+                  <div class="header__btn">
+                    <a href="" class="btn-ractangle">Join Now</a>
+                  </div>
+                  <div class="mobile__menu">
+                    <button class="menu-icon"><i class="fa-solid fa-bars"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container position-relative">
+      <div class="search__form">
+        <form action="#">
+          <input type="text" name="s" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <main> 
+
+    
+     <!-- breadcrumb area  -->
+     <div class="breadcrumb__area">
+      <img class="shape-2" src="assets/imgs/inner/bradcrumb-shape-2.png" alt="shape-1">
+      <img class="shape-3"  src="assets/imgs/inner/dotted-1.png" alt="shape-1">
+      <div class="container">
+        <h2 class="breadcrumb__title">Product Details</h2>
+        <ul class="breadcrumb__menu">
+          <li><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Page</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Product Details</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /breadcrumb area  -->
+
+
+    <!-- Product details start -->
+    <section class="product__details-area pt-120 pb-125">
+      <div class="container">
+        <div class="product__details-inner">
+          <div class="product__details-left">
+            <div class="tab-content" id="nav-tabContent2">
+              <div class="tab-pane fade show active" id="product-img-1" role="tabpanel" aria-labelledby="product-img-1-tab" tabindex="0">
+                <div class="product__details-img">
+                  <img src="assets/imgs/shop/1.jpg" alt="Image">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-img-2" role="tabpanel" aria-labelledby="product-img-2-tab" tabindex="0">
+                <div class="product__details-img">
+                  <img src="assets/imgs/shop/1.jpg" alt="Image">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-img-3" role="tabpanel" aria-labelledby="product-img-3-tab" tabindex="0">
+                <div class="product__details-img">
+                  <img src="assets/imgs/shop/1.jpg" alt="Image">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-img-4" role="tabpanel" aria-labelledby="product-img-4-tab" tabindex="0">
+                <div class="product__details-img">
+                  <img src="assets/imgs/shop/1.jpg" alt="Image">
+                </div>
+              </div>
+            </div>
+
+            <nav class="product__details-imgs">
+              <div class="nav nav-tabs" id="nav-tab2" role="tablist">
+                <button class="nav-link active" id="product-img-1-tab" data-bs-toggle="tab" data-bs-target="#product-img-1" type="button" role="tab" aria-controls="product-img-1" aria-selected="true">
+                  <img src="assets/imgs/shop/13.png" alt="Image">
+                </button>
+                <button class="nav-link" id="product-img-2-tab" data-bs-toggle="tab" data-bs-target="#product-img-2" type="button" role="tab" aria-controls="product-img-2" aria-selected="false">
+                  <img src="assets/imgs/shop/13.png" alt="Image">
+                </button>
+                <button class="nav-link" id="product-img-3-tab" data-bs-toggle="tab" data-bs-target="#product-img-3" type="button" role="tab" aria-controls="product-img-3" aria-selected="false">
+                  <img src="assets/imgs/shop/13.png" alt="Image">
+                </button>
+                <button class="nav-link" id="product-img-4-tab" data-bs-toggle="tab" data-bs-target="#product-img-4" type="button" role="tab" aria-controls="product-img-4" aria-selected="false">
+                  <img src="assets/imgs/shop/13.png" alt="Image">
+                </button>
+              </div>
+            </nav>
+          </div>
+          <div class="product__details-right">
+            <div class="rating">
+              <img src="assets/imgs/shop/rating.png" alt="rating">
+              <span>(1 Customer Review)</span>
+            </div>
+            <h2 class="product__details-title">Wayfarer Messenger Bag</h2>
+            <div class="text">
+              <p>Faded short sleeves with high neckline. Soft and stretchy material for comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+            </div>
+            <div class="sku">
+              <p><strong>SKU:</strong> blox-fr-21</p>
+            </div>
+            <div class="category">
+              <strong>Categories:</strong>
+              <a href=""> History</a>,
+              <a href="">Funny book</a>
+            </div>
+            <div class="size">
+              <strong>Size :</strong>
+              <select name="product size" id="product_size">
+                <option value="m">m</option>
+                <option value="l">l</option>
+                <option value="xl">xl</option>
+              </select>
+            </div>
+            <div class="social">
+              <strong>Share Now : </strong>
+              <ul>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+              </ul>
+            </div>
+            <div class="price">
+              <p><span>$780.00</span> $480.00</p>
+            </div>
+            <div class="btns">
+              <div class="quantity">
+                <form>
+                  <div class="value-button" id="decrease" onclick="decreaseValue()" >-</div>
+                  <input type="number" id="quantity-number" value="0" />
+                  <div class="value-button" id="increase" onclick="increaseValue()">+</div>
+                </form>
+              </div>
+              <div class="add-cart">
+                <a href="" class="btn-ractangle">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product details end -->
+
+    
+    <!-- Product info start -->
+    <section class="product__info-area pb-125">
+      <div class="container">
+        <div class="product__info-inner">
+          <div class="product__info-left">
+            <nav class="info">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="product-description-tab" data-bs-toggle="tab" data-bs-target="#product-description" type="button" role="tab" aria-controls="product-description" aria-selected="true">Description</button>
+                <button class="nav-link" id="product-specification-tab" data-bs-toggle="tab" data-bs-target="#product-specification" type="button" role="tab" aria-controls="product-specification" aria-selected="false">Specification</button>
+                <button class="nav-link" id="product-review-tab" data-bs-toggle="tab" data-bs-target="#product-review" type="button" role="tab" aria-controls="product-review" aria-selected="false">Reviews (1)</button>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="product-description" role="tabpanel" aria-labelledby="product-description-tab" tabindex="0">
+                <div class="product__description">
+                  <h2>Description</h2>
+                  <p>Distinctively pursue tactical niche markets vis-a-vis strategic models. Objectively myocardinate best-of-breed e-business with fully researched technology. Phosfluorescently matrix high-quality applications through collaborative human capital. Appropriately syndicate viral niches before accurate communities. Professionally generate empowered deliverables with leading-edge content.
+
+                  </p>
+                  <p>Uniquely unleash B2C portals without functional supply chains. Monotonectally visualize plug-and-play scenarios for enterprise-wide total linkage. Uniquely productivate flexible after.</p>
+                  <h3>Perfect for fans of Barbara Kingsolver.”–Bustle</h3>
+                  <p>Distinctively pursue tactical niche markets vis-a-vis strategic models. Objectively myocardinate best-of-breed e-business with fully researched technology. Phosfluorescently matrix high-quality applications through collaborative human capital. Appropriately syndicate viral niches before accurate communities. Professionally generate empowered deliverables with leading-edge content.</p>
+                  <p>Uniquely unleash B2C portals without functional supply chains. Monotonectally visualize plug-and-play scenarios for enterprise-wide total linkage. Uniquely productivate flexible after.</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-specification" role="tabpanel" aria-labelledby="product-specification-tab" tabindex="0">
+                <div class="product__specification">
+                  <p>Distinctively pursue tactical niche markets vis-a-vis strategic models. Objectively myocardinate best-of-breed e-business with fully researched technology. Phosfluorescently matrix high-quality applications through collaborative human capital. Appropriately syndicate viral niches before accurate communities. Professionally generate empowered deliverables with leading-edge content.</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="product-review" role="tabpanel" aria-labelledby="product-review-tab" tabindex="0">
+                <div class="product__review">
+                  <div class="product__review-top">
+                    <div class="content">
+                      <h2>Reviews (1)</h2>
+                      <p>Get specific details about this product from customers who own it.</p>
+                      <div class="rating">
+                        <img src="assets/imgs/shop/rating.png" alt="">
+                        <p>( 5 out of 5)</p>
+                      </div>
+                    </div>
+                    <div class="review-btn">
+                      <a href="" class="btn-border">Write a Review</a>
+                    </div>
+                  </div>
+
+                  <div class="product__review-list">
+                    <div class="product__review-item">
+                      <div class="author">
+                        <div class="top">
+                          <div class="img">
+                            <img src="assets/imgs/shop/14.png" alt="User">
+                          </div>
+                          <div class="name">
+                            <h3>Helena Garcia</h3>
+                            <p>2 January, 2018</p>
+                          </div>
+                        </div>
+                        <p>Information on technical characteristics, the delivery set, the country of manufacture and the appearance of the goods is for reference only and is based on the latest information of publication.</p>
+                      </div>
+                      <div class="rating">
+                        <img src="assets/imgs/shop/rating.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product__info-right">
+            <div class="course__recentPost">
+              <h3>Recent Posts</h3>
+              <div class="course__recentPost-wrapper">
+                <div class="course__recentPost-item">
+                    <div class="course__recentPost-left">
+                        <img src="assets/imgs/inner-2/recent-post-2.png" alt="Post">
+                    </div>
+                    <div class="course__recentPost-right">
+                         <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                         <a href="blog-details.html">
+                            <h5>Education Geometry New Rank</h5>
+                         </a> 
+                    </div>
+                </div>
+                <div class="course__recentPost-item">
+                    <div class="course__recentPost-left">
+                        <img src="assets/imgs/inner-2/recent-post-3.png" alt="Post">
+                    </div>
+                    <div class="course__recentPost-right">
+                         <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                         <a href="blog-details.html">
+                            <h5>How IB Strategies Can Enhance</h5>
+                         </a> 
+                    </div>
+                </div>
+                <div class="course__recentPost-item">
+                    <div class="course__recentPost-left">
+                        <img src="assets/imgs/inner-2/recent-post-4.png" alt="Post">
+                    </div>
+                    <div class="course__recentPost-right">
+                         <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                         <a href="blog-details.html">
+                            <h5>10 Favorite Writers for Mids</h5>
+                         </a> 
+                    </div>
+                </div>
+            </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product info end -->
+    
+
+    <!-- Related Products start -->
+    <section class="related__product-area pb-120">
+      <div class="container">
+        <div class="related__product-title pb-30">
+          <h2 class="sec-title">Related Products</h2>
+        </div>
+
+        <div class="swiper related_product_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product__item">
+                <div class="thumb">
+                  <img src="assets/imgs/shop/1.jpg" alt="Product Image">
+                </div>
+                <div class="product__content">
+                  <div class="rating">
+                    <img src="assets/imgs/shop/rating.png" alt="">
+                    <p>4.5 ( 1k Review )</p>
+                  </div>
+                  <a href="course.html">
+                    <h2 class="product__name">Start Guide  Beginner UI /UX Design Book</h2>
+                  </a>
+                  <div class="product__price">
+                    <a href="">Add to cart</a>
+                    <p>$135.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product__item">
+                <div class="thumb">
+                  <img src="assets/imgs/shop/1.jpg" alt="Product Image">
+                </div>
+                <div class="product__content">
+                  <div class="rating">
+                    <img src="assets/imgs/shop/rating.png" alt="">
+                    <p>4.5 ( 1k Review )</p>
+                  </div>
+                  <a href="course.html">
+                    <h2 class="product__name">Start Guide  Beginner UI /UX Design Book</h2>
+                  </a>
+                  <div class="product__price">
+                    <a href="">Add to cart</a>
+                    <p>$135.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product__item">
+                <div class="thumb">
+                  <img src="assets/imgs/shop/1.jpg" alt="Product Image">
+                </div>
+                <div class="product__content">
+                  <div class="rating">
+                    <img src="assets/imgs/shop/rating.png" alt="">
+                    <p>4.5 ( 1k Review )</p>
+                  </div>
+                  <a href="course.html">
+                    <h2 class="product__name">Start Guide  Beginner UI /UX Design Book</h2>
+                  </a>
+                  <div class="product__price">
+                    <a href="">Add to cart</a>
+                    <p>$135.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product__item">
+                <div class="thumb">
+                  <img src="assets/imgs/shop/1.jpg" alt="Product Image">
+                </div>
+                <div class="product__content">
+                  <div class="rating">
+                    <img src="assets/imgs/shop/rating.png" alt="">
+                    <p>4.5 ( 1k Review )</p>
+                  </div>
+                  <a href="course.html">
+                    <h2 class="product__name">Start Guide  Beginner UI /UX Design Book</h2>
+                  </a>
+                  <div class="product__price">
+                    <a href="">Add to cart</a>
+                    <p>$135.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product__item">
+                <div class="thumb">
+                  <img src="assets/imgs/shop/1.jpg" alt="Product Image">
+                </div>
+                <div class="product__content">
+                  <div class="rating">
+                    <img src="assets/imgs/shop/rating.png" alt="">
+                    <p>4.5 ( 1k Review )</p>
+                  </div>
+                  <a href="course.html">
+                    <h2 class="product__name">Start Guide  Beginner UI /UX Design Book</h2>
+                  </a>
+                  <div class="product__price">
+                    <a href="">Add to cart</a>
+                    <p>$135.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Related Products end -->
+
+
+  </main>
+
+  <!-- Footer area start  -->
+  <footer class="footer__area-2 pt-120">
+    <div class="container">
+      <div class="footer__top-2">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="newsletter__content-2">
+              <h2 class="title">App Is Available For Free <br> Let’s Learn Together</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__app">
+              <p>SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors particularly
+                important .</p>
+
+              <div class="footer__app-list">
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-google-play"></i>
+                    </div>
+                    <div class="info">
+                      <p>Get it on</p>
+                      <h4>Google Play</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <div class="info">
+                      <p>Download on the</p>
+                      <h4>App Store</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__mid pb-125">
+        <div class="row">
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__logo-2">
+              <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+              <p>SSL for your site is a no-brainer best practice. Not only lMS Website site.</p>
+              <div class="newsletter__form-2">
+                <input type="email" name="email" placeholder="Enter email Address">
+                <button class="submit" type="submit">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Useful Links</h2>
+              <ul class="quick-link">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html">Resource Center</a></li>
+                <li><a href="contact.html">Careers</a></li>
+                <li><a href="team.html">Instructor</a></li>
+                <li><a href="contact.html">Become A Teacher</a></li>
+                <li><a href="course.html">Categories</a></li>
+                <li><a href="course.html">All Courses</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Courses</h2>
+              <ul class="quick-link">
+                <li><a href="course.html">Digital Marketing</a></li>
+                <li><a href="course.html">Design & Branding</a></li>
+                <li><a href="course.html">Storytelling & Voice Over</a></li>
+                <li><a href="course.html">News & Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="course.html">Pricing</a></li>
+                <li><a href="about.html">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__posts">
+              <h2 class="footer__title">Recent Post</h2>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw-2.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__btm-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer__copyright-2">
+              <p>©copyright 2023 EduQuest. Designed By itec-themes</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__social-2">
+              <p>Flow Us On</p>
+              <ul class="social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer area end  -->
+
+
+
+   <!-- All JS Files -->
+   <script src="assets/js/jquery-3.6.1.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery.meanmenu.min.js"></script>
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
+   <script src="assets/js/counter.js"></script>
+   <script src="assets/js/aos.js"></script>
+   <script src="assets/js/backToTop.js"></script>
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   <script src="assets/js/main.js"></script>
+
+
+  <script>
+      var related_product_slider = new Swiper(".related_product_slider", {
+    'loop': true,
+    'speed': 1500,
+    'freemode': true,
+    'spaceBetween': 30,
+    navigation: {
+      nextEl: ".course-btn-next",
+      prevEl: ".course-btn-prev",
+    },
+    breakpoints: {
+      300: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      1300: {
+        slidesPerView: 4,
+      },
+    },
+  });
+
+
+  function increaseValue() {
+    var value = parseInt(document.getElementById('quantity-number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('quantity-number').value = value;
+  }
+
+  function decreaseValue() {
+    var value = parseInt(document.getElementById('quantity-number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value < 1 ? value = 1 : '';
+    value--;
+    document.getElementById('quantity-number').value = value;
+  }
+
+  </script>
+
+</body>
+
+</html>

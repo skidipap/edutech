@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 Template">
+
+  <!-- Site Title -->
+  <title>Blog Details</title>
+
+  <!-- Site Favicon -->
+  <link rel="shortcut icon" href="assets/imgs/logo/favicon.png" type="image/x-icon">
+
+  <!-- All CSS Files -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/magnifi.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__inner">
+      <div class="offcanvas__top">
+        <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+        <button id="offcanvas_close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="offcanvas__menu">
+        <div class="offcanvas-menu">
+          <ul>
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Service</a>
+            </li>
+            <li><a href="#">portfolio</a>
+            </li>
+            <li><a href="#">team</a>
+            </li>
+            <li><a href="#">blog</a>
+            </li>
+            <li><a href="#">others</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+  <!-- Cart area start -->
+  <div class="offcanvas offcanvas-end cart__offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">SHOPPING CART</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="cart__list">
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+      </div>
+
+      <div class="cart__other">
+        <p>SUBTOTAL:  <span>$121.00</span></p>
+        <a href="">view cart</a>
+        <a href="">checkout</a>
+      </div>
+    </div>
+  </div>
+  <!-- Cart area end -->
+  <!-- Header area start -->
+  <header class="header__area-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="header__inner">
+            <div class="header__left">
+              <div class="header__logo">
+                <a href="">
+                  <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+                </a>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__btm">
+                <div class="header__menu">
+                  <div class="main-menu">
+                    <ul>
+                      <li class="has-dropdown"><a href="#">Home</a>
+                        <ul class="main-dropdown">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="index-2.html">home 2</a></li>
+                          <li><a href="index-3.html">home 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-dropdown"><a href="#">courses</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="about.html">About</a>
+                      </li>
+                      <li class="has-dropdown"><a href="#">pages</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blog-listing.html">Blog v.2</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                          <li><a href="product-details.html">Shop Details</a></li>
+                          <li><a href="team.html">team</a></li>
+                          <li><a href="faq.html">Faq</a></li>
+                          <li><a href="contact.html">contact</a></li>
+                          <li><a href="gallary.html">Gallary</a></li>
+                          <li><a href="404.html">404</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header__other">
+                  <div class="header__lang">
+                    <div class="dropdown">
+                      <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Eng</button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Eng</a></li>
+                        <li><a class="dropdown-item" href="#">France</a></li>
+                        <li><a class="dropdown-item" href="#">spanish</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="header__cart">
+                    <button class="cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </div>
+                  <div class="header__search">
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="search-close"><i class="fa-solid fa-xmark"></i></button>
+                  </div>
+                  <div class="header__btn">
+                    <a href="" class="btn-ractangle">Join Now</a>
+                  </div>
+                  <div class="mobile__menu">
+                    <button class="menu-icon"><i class="fa-solid fa-bars"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container position-relative">
+      <div class="search__form">
+        <form action="#">
+          <input type="text" name="s" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <main> 
+    
+    <!-- breadcrumb area  -->
+    <div class="breadcrumb__area">
+      <img class="shape-2" src="assets/imgs/inner/bradcrumb-shape-2.png" alt="shape-1">
+      <img class="shape-3"  src="assets/imgs/inner/dotted-1.png" alt="shape-1">
+      <div class="container">
+        <h2 class="breadcrumb__title">Blog Details</h2>
+        <ul class="breadcrumb__menu">
+          <li><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Page</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Blog Details</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /breadcrumb area  -->
+
+
+    <!-- course area  -->
+    <section class="course__area-2 pt-120 pb-125">
+        <div class="container">
+            <div class="row">   
+              <div class="col-lg-8 col-md-8">
+                <div class="blog__details">
+                  <div class="blog__detailsthumb">
+                    <img src="assets/imgs/inner/blog-details-1.jpg" alt="details">
+                  </div>
+                  <ul class="blog__detailsdate">
+                    <li>E-Learning Education</li>
+                    <li><i class="fa-solid fa-calendar-days"></i> July 29, 2023</li>
+                    <li><i class="fa-solid fa-user-pen"></i> Leslie Alexander</li>
+                  </ul>
+                  <p> our worldwide annual spend on digital advertising surpassing $325 billion, it’s no surprise that different
+                    apches to online marketing are becoming available. One of these new approaches is performance 
+                   or digital performance marketing. Keep reading to learn all about performance marketing, from how it works to it compares to digital marketing. Plus, get insight into the benefits and risks of performance marketing and how itcan affect your company’s long-term success and profitability. Performance marketing is an approach to digitalmarketing or advertising where businesses only pay when a specific result occurs. This result could be a new lead,sale, or other outcome agreed upon by the advertiser and business. Performance marketing involves channels such as affiliate marketing, online advertising.</p>
+                   
+                   <ul class="blog__detailslist">
+                    <li>Another way to promote reflection, not perfection</li>
+                    <li>This practice will help students think interdependently</li>
+                    <li>Self-reflection requires courage and patience</li>
+                    <li>Teaching students to be self-reflective will give them a skill</li>
+                   </ul>
+
+                   <h2>Favorite Writers for Middle School Students</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tincidunt iaculis eget interdum pretium ullamcorper est dui, donec feugiat at etiam aliquam ornare parturient ut convallis gravida malesuada netus commodo hendrerit lorem sed imperdiet praesent consectetur fermentum.</p>
+
+                   <ul class="blog__detailslist">
+                    <li>Neque sodales ut etiam sit amet nisl purus non tellus orci ac auctor</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li>
+                    <li>Mauris commodo quis imperdiet massa tincidunt nunc pulvinar</li>
+                    <li>Adipiscing elit ut aliquam purus sit amet viverra suspendisse potenti</li>
+                   </ul>
+                   
+                  
+                   <div class="blog__detailvideo">
+                    <div class="blog__detailvideothumb">
+                      <img src="assets/imgs/inner/details-video-play.jpg" alt="videothumb">
+                      <a class="blog__detailvideoicon video-link" href="https://youtu.be/pNje3bWz7V8"><i class="fa-solid fa-play"></i></a>
+                    </div>
+                    <div class="blog__detailvideocontent">
+                      <h2>Education Research You Can Use</h2>
+                      <p>The end of the school year is always a time full of excitement, joy, and oodles of </p>
+                      <p>elf-reflection requires courage and patience. Teaching students to be self-reflective will give them a skill that will help them throughout their lives in whatever path they choose.</p>
+                    </div>
+                   </div>
+                   <h2>Keep Up With Education Research</h2>
+                   <p>Supported substance consolidates parts of web based promoting and substance showcasing. It includes making substance, for example, a blog entry or video and paying for its consideration on a site that routinely distributes comparative substance. A piece of supported substance will seem to be like the remainder of the substance on the site yet will incorporate some sign that it’s supported. With execution showcasing, you would pay a pre-decided aps on your supported article navigates to your site from the article.</p>
+                   <div class="blog__quote">
+                    <img src="assets/imgs/inner/quote-light.png" alt="quote-left">
+                    <h2>Have students make a “strengths résumé” at the beginning of the year that  identify areas to improve</h2>
+                    <h4>Leslie Alexander</h4>
+                   </div>
+                   <p>Supported substance consolidates parts of web based promoting and substance showcasing. It includes making substance, for example, a blog entry or video and paying for its consideration on a site that routinely distributes comparative substance. A piece of supported substance will seem to be like the remainder of the substance on the site yet will incorporate some sign that it’s supported. With execution showcasing, you would pay a pre-decided aps on your supported article navigates to your site from the article.</p>
+                   <div class="row">
+                    <div class="col-lg-6">
+                      <div class="blog__tagswrap">
+                        <span>Tags.</span>
+                        <ul class="blog__tagslist">
+                          <li>E- Learning</li>
+                          <li>Design</li>
+                          <li>Development</li>
+                        </ul>
+                       </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="blog__tagswrap justify-content-end">
+                        <span>Share On</span>
+                        <ul class="course__authorsocial pt-0">
+                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                        </ul>
+                       </div>
+                    </div>
+                   </div>
+                   <div class="cmt__form">
+                    <div class="thumb">
+                      <img src="assets/imgs/inner/cmt.png" alt="thumb">
+                    </div>
+                    <div class="content">
+                      <h3>Cameron Williamson</h3>
+                      <span class="v-post">Visitsite: Itech-themes</span>
+                      <p class="dis">Self-reflection requires courage and patience. Teaching students to be self- them a skill that will help them throughout their lives.</p>
+                      <ul class="course__authorsocial pt-0 justify-content-start">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                      </ul>
+                    </div>
+                   </div>
+                   <div class="row">
+                    <div class="col-lg-6">
+                      <button class="blog__prevbtn"><i class="fa-solid fa-chevron-left"></i>  Previous Post </button>
+                      <div class="blog__prev">
+                        <div class="thumb">
+                          <img src="assets/imgs/inner/prev-post.jpg" alt="prevpost">
+                        </div>
+                        <div class="content">
+                          <h5 class="blog__prevtitle">How Generative AI Can Support  Math Instruction</h5>
+                          <span class="blog__prevdate">21 Jun 20223</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                      <button class="blog__prevbtn"> Next Post <i class="fa-solid fa-chevron-right"></i>  </button>
+                      <div class="blog__prev">
+                        <div class="thumb">
+                          <img src="assets/imgs/inner/prev-post.jpg" alt="prevpost">
+                        </div>
+                        <div class="content">
+                          <h5 class="blog__prevtitle">How Generative AI Can Support  Math Instruction</h5>
+                          <span class="blog__prevdate">21 Jun 20223</span>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+                   <h2 class="comment__user-title">Comments(02)</h2>
+                   <div class="comment__user">
+                    <div class="comment__thumb">
+                      <img src="assets/imgs/inner/comment-user.jpg" alt="comment user image">
+                    </div>
+                    <div class="comment__content">
+                      <div class="comment__content-header">
+                        <h3 class="comment__name">Randy K. Melton</h3>
+                        <span class="comment__date">05.03.2021 [11.00am]</span>
+                      </div>
+                      <p>Universal Design for Learning is a powerful framework to operationalize the right to education, supporting educators in maximizing desirable challenges</p>
+                      <button type="button"> <img src="assets/imgs/inner/arrow-round.png" alt="arrow-round"> REPLY</button>
+                    </div>
+                   </div>
+                   <div class="comment__user ml-90 mt-30">
+                    <div class="comment__thumb">
+                      <img src="assets/imgs/inner/comment-user.jpg" alt="comment user image">
+                    </div>
+                    <div class="comment__content">
+                      <div class="comment__content-header">
+                        <h3 class="comment__name">Randy K. Melton</h3>
+                        <span class="comment__date">05.03.2021 [11.00am]</span>
+                      </div>
+                      <p>Universal Design for Learning is a powerful framework to operationalize the right to education, supporting educators in maximizing desirable challenges</p>
+                      <button type="button"> <img src="assets/imgs/inner/arrow-round.png" alt="arrow-round"> REPLY</button>
+                    </div>
+                   </div>
+                   <div class="comment__user-form">
+                    <form action="#">
+                      <div class="comment__user-field">
+                        <textarea placeholder="Write your Comment here..."></textarea>
+                      </div>
+                      <button type="submit">Post Comment</button>
+                    </form>
+                   </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <div class="course__sidebar"> 
+                  <div class="course__recentPost">
+                    <h3>Search Now</h3>
+                  </div> 
+                  <div class="course__widgetitem">
+                    <form action="#">
+                      <input type="text" name="search" id="search" placeholder="Search...">
+                      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                  </div>
+                  <div class="course__recentPost">
+                    <h3>About Author</h3>
+                  </div> 
+                  <div class="course__widgetitem">
+                    <div class="course__authorthumb">
+                      <img src="assets/imgs/inner/author-1.jpg" alt="author">
+                    </div>
+                    <h4 class="course__authorname">Marvin McKinney</h4>
+                    <p>EduQuest is a frequent speaker on the topics of globa occaecat egestasquisquam.</p>
+                    <ul class="course__authorsocial">
+                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                    </ul>
+                  </div>
+                    <div class="course__recentPost mb-30">
+                        <h3>Recent Posts</h3>
+                        <div class="course__recentPost-wrapper">
+                            <div class="course__recentPost-item">
+                                <div class="course__recentPost-left">
+                                    <img src="assets/imgs/inner-2/recent-post-1.png" alt="Post">
+                                </div>
+                                <div class="course__recentPost-right">
+                                     <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                                     <a href="blog.html">
+                                        <h5>How UDL Creates an Equitable Environment for Students</h5>
+                                     </a>
+                                </div>
+                            </div>
+                            <div class="course__recentPost-item">
+                                <div class="course__recentPost-left">
+                                    <img src="assets/imgs/inner-2/recent-post-2.png" alt="Post">
+                                </div>
+                                <div class="course__recentPost-right">
+                                     <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                                     <a href="blog.html">
+                                        <h5>Education Geometry New Rank Strong Year-2023</h5>
+                                     </a> 
+                                </div>
+                            </div>
+                            <div class="course__recentPost-item">
+                                <div class="course__recentPost-left">
+                                    <img src="assets/imgs/inner-2/recent-post-3.png" alt="Post">
+                                </div>
+                                <div class="course__recentPost-right">
+                                     <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                                     <a href="blog.html">
+                                        <h5>How IB Strategies Can Enhance Project-Based Learning</h5>
+                                     </a> 
+                                </div>
+                            </div>
+                            <div class="course__recentPost-item">
+                                <div class="course__recentPost-left">
+                                    <img src="assets/imgs/inner-2/recent-post-4.png" alt="Post">
+                                </div>
+                                <div class="course__recentPost-right">
+                                     <h4><i class="fa-solid fa-calendar-days"></i> <span>Feb 18, 20223</span></h4>
+                                     <a href="blog.html">
+                                        <h5>10 Favorite Writers for Middle School Students</h5>
+                                     </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course__recentPost mb-30"> 
+                      <div class="course__recentPost">
+                        <h3> Categories </h3>
+                      </div> 
+                      <div class="course__categorywrapper">
+                        <ul class="course__category-list">
+                          <li><a href="course.html">Development</a> <span>08</span></li>
+                          <li><a href="course.html">Digital Marketing</a> <span>06</span></li>
+                          <li><a href="course.html">Financial</a> <span>03</span></li>
+                          <li><a href="course.html">Business Consulting</a> <span>14</span></li>
+                          <li><a href="course.html">Graphics Design</a> <span>21</span></li>
+                          <li><a href="course.html">UI/UX Design</a> <span>09</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course__recentPost mb-30"> 
+                      <div class="course__recentPost">
+                        <h3> Popular Courses</h3>
+                      </div> 
+                      <div class="course__recent">
+                           <div class="course__recentItem">
+                            <div class="course__recentLeft">
+                              <img src="assets/imgs/inner-2/thumb/recent-1.png" alt="Image">
+                            </div>
+                            <div class="course__recentRight">
+                              <a href="course-details.html">Learn Figma to Cms Beginner to Advanced</a>
+                              <span>$80.00</span>
+                            </div>
+                           </div>
+                           <div class="course__recentItem">
+                            <div class="course__recentLeft">
+                              <img src="assets/imgs/inner-2/thumb/recent-1.png" alt="Image">
+                            </div>
+                            <div class="course__recentRight">
+                              <a href="course-details.html">Learn Figma to Cms Beginner to Advanced</a>
+                              <span>$80.00</span>
+                            </div>
+                           </div>
+                           <div class="course__recentItem">
+                            <div class="course__recentLeft">
+                              <img src="assets/imgs/inner-2/thumb/recent-2.png" alt="Image">
+                            </div>
+                            <div class="course__recentRight">
+                              <a href="course-details.html">Learn Figma to Cms Beginner to Advanced</a>
+                              <span>$20.00</span>
+                            </div>
+                           </div>
+                           <div class="course__recentItem">
+                            <div class="course__recentLeft">
+                              <img src="assets/imgs/inner-2/thumb/recent-3.png" alt="Image">
+                            </div>
+                            <div class="course__recentRight">
+                              <a href="course-details.html">Learn Figma to Cms Beginner to Advanced</a>
+                              <span>$35.00</span>
+                            </div>
+                           </div>
+                      </div>
+                    </div>
+                    <div class="course__recentPost mb-30"> 
+                      <div class="course__recentPost">
+                        <h3> Popular Tags </h3>
+                      </div> 
+                      <div class="course__categorywrapper">
+                        <ul class="course__category-tags">
+                          <li><a href="course.html">Development</a></li>
+                          <li><a href="course.html">Digital Marketing</a></li>
+                          <li><a href="course.html">Financial</a></li>
+                          <li><a href="course.html">Business Consulting</a></li>
+                          <li><a href="course.html">Graphics Design</a></li>
+                          <li><a href="course.html">UI/UX Design</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section> 
+    <!-- /course area  -->
+    
+
+
+  </main>
+
+  <!-- Footer area start  -->
+  <footer class="footer__area-2 pt-120">
+    <div class="container">
+      <div class="footer__top-2">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="newsletter__content-2">
+              <h2 class="title">App Is Available For Free <br> Let’s Learn Together</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__app">
+              <p>SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors particularly
+                important .</p>
+
+              <div class="footer__app-list">
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-google-play"></i>
+                    </div>
+                    <div class="info">
+                      <p>Get it on</p>
+                      <h4>Google Play</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <div class="info">
+                      <p>Download on the</p>
+                      <h4>App Store</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__mid pb-125">
+        <div class="row">
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__logo-2">
+              <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+              <p>SSL for your site is a no-brainer best practice. Not only lMS Website site.</p>
+              <div class="newsletter__form-2">
+                <input type="email" name="email" placeholder="Enter email Address">
+                <button class="submit" type="submit">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Useful Links</h2>
+              <ul class="quick-link">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html">Resource Center</a></li>
+                <li><a href="contact.html">Careers</a></li>
+                <li><a href="team.html">Instructor</a></li>
+                <li><a href="contact.html">Become A Teacher</a></li>
+                <li><a href="course.html">Categories</a></li>
+                <li><a href="course.html">All Courses</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Courses</h2>
+              <ul class="quick-link">
+                <li><a href="course.html">Digital Marketing</a></li>
+                <li><a href="course.html">Design & Branding</a></li>
+                <li><a href="course.html">Storytelling & Voice Over</a></li>
+                <li><a href="course.html">News & Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="course.html">Pricing</a></li>
+                <li><a href="about.html">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__posts">
+              <h2 class="footer__title">Recent Post</h2>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw-2.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__btm-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer__copyright-2">
+              <p>©copyright 2023 EduQuest. Designed By itec-themes</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__social-2">
+              <p>Flow Us On</p>
+              <ul class="social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer area end  -->
+
+
+  <!-- All JS Files -->
+  <script src="assets/js/jquery-3.6.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

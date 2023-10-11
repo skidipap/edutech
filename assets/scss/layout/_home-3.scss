@@ -1,0 +1,1239 @@
+/*----------------------------------------*/
+/*  1. HEADER CSS START
+/*----------------------------------------*/
+.home-3-bg{
+   background: #F5F5F5;
+}
+.header{
+   &__area{
+      &-3{
+         background: var(--white);
+         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+         padding: 20px 0;
+         position: absolute;
+         z-index: 0;
+         left: 0;
+         right: 0;
+         z-index: 99;
+         @media #{$lg}{
+            display: none;
+         }
+      }
+   }
+   &__logo{
+      &-3{
+         img{
+            max-width: 190px;
+         }
+      }
+   }
+   &__right{
+      &-3{
+         display: flex;
+         gap: 20px;
+         align-items: center;
+      }
+   }
+   &__nav{
+      &-3{
+         display: flex;
+         gap: 32px;
+         align-items: center;
+         @media #{$xl}{
+            gap: 15px;
+         }
+         li{
+            position: relative;
+            a{
+               font-family: $primary_font;
+               font-size: 16px;
+               font-weight: 500;
+               line-height: 1.5;
+               color: var(--black);
+               &:hover{
+                  color: var(--primary-3);
+               }
+            }
+         }
+      }
+   }
+   &__lang{
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      li{
+         position: relative;
+         &:nth-child(3){
+            &::before{
+               display: none;
+            }
+         }
+         &:last-child{
+            &::before{
+               display: none;
+            }
+         }
+         &::before{
+            content: "";
+            position: absolute;
+            right: -12px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 16px;
+            width: 1px;
+            background: var(--black-4);
+         }
+         i{
+            padding-right: 8px;
+            font-size: 18px;
+            cursor: pointer;
+         }
+      }
+   }
+}
+.constionic{
+   &__mobile{
+       background: var(--black-5);
+       padding: 30px;
+       @media (min-width:1200px){
+           display: none;
+       }
+   }
+   &__wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       &-menu{
+           a{
+               color: var(--white);
+               font-size: 30px;
+           }
+       }
+   }
+}
+/*----------------------------------------*/
+/*  2. HERO CSS START
+/*----------------------------------------*/
+.hero{
+   &__area{
+      &-3{
+         padding-top: 50px;
+         padding-bottom: 100px;
+         background: rgba(255, 234, 238, 0.20);
+         backdrop-filter: blur(14px);
+         position: relative;
+         overflow: hidden;
+         @media #{$lg}{
+            padding-bottom: 60px;
+         }
+         .social-media-2 p{
+            color: var(--black);
+         }
+         .social-media-2 li a{
+            color: var(--black);
+         }
+      }
+   }
+   &__reverse{
+      &-3{
+         @media #{$lg}{
+            flex-direction: column-reverse;
+         }
+      }
+   }
+   &__content{
+      &-3{
+         @media #{$lg}{
+            padding-top: 40px;
+         }
+         @media #{$sm}{
+            padding-top: 0;
+         }
+         p{
+            font-size: 18px;
+         }
+      }
+   }
+   &__subtitle{
+      &-3{
+         font-size: 24px;
+         font-family: $secondary_font;
+         font-weight: 800;
+         line-height: 1.5;
+         display: inline-block;
+         padding-left: 160px;
+         position: relative;
+         color: var(--primary-3);
+         text-transform: capitalize;
+         @media #{$lg}{
+            padding-left: 88px;
+            font-size: 18px;
+         }
+         &::before{
+            content: "";
+            left: 0;
+            top: 50%;
+            width: 140px;
+            height: 3px;
+            background: var(--primary-3);
+            position: absolute;
+            @media #{$lg}{
+               width: 70px;
+            }
+         }
+      }
+   }
+   &__title{
+      &-3{
+         font-family: $secondary_font;
+         font-size: 64px;
+         font-style: normal;
+         font-weight: 800;
+         line-height: 1.1;
+         letter-spacing: -0.64px;
+         padding-bottom: 30px;
+         padding-top: 10px;
+         &.section-title-3{
+            font-size: 48px;
+            padding-bottom: 10px;
+            @media #{$lg}{
+               font-size: 32px;
+            }
+         }
+         @media #{$lg}{
+            font-size: 40px;
+            br{
+               display: none;
+            }
+         }
+         @media #{$sm}{
+            font-size: 30px;
+         }
+      }
+   }
+   &__diswrap{
+      padding-bottom: 40px;
+   }
+   &__shape1{
+      position: absolute;
+      left: -100px;
+      top: 0;
+      opacity: 0.5;
+      z-index: -2;
+   }
+   &__shape2{
+      position: absolute;
+      right: 0;
+      top: -90px;
+      z-index: -2;
+   }
+   &__thumb{
+      &-3{
+         position: relative;
+      }
+   }
+   &__box1wrap{
+      position: absolute;
+      top: 300px;
+      left: 0;
+      @media #{$md}{
+         top: 0;
+      }
+   }
+   &__boxwrap2{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      @media #{$sm}{
+         display: none;
+      }
+   }
+   &__box1{
+      text-align: center;
+      border-radius: 8.872px;
+      background: var(--white);
+      box-shadow: -7.097254276275635px 7.097254276275635px 13.30735969543457px 0px rgba(0, 0, 0, 0.08);
+      max-width: 145px;
+      padding: 20px;
+      h3{
+         color: var(--black-5);
+         font-size: 17.695px;
+         font-weight: 800;
+         padding-top: 18px;
+      }
+   }
+   &__box2{
+      text-align: center;
+      border-radius: 6.885px;
+      background: var(--white);
+      box-shadow: 6.884577751159668px 6.884577751159668px 25.817184448242188px 0px rgba(0, 0, 0, 0.10);
+      padding: 35px;
+      h3{
+         color:#001920;
+         font-size: 14px;
+         font-weight: 800;
+         line-height: 1.5;
+      }
+      h2{
+         color: #002935;
+         font-size: 27.538px;
+         font-weight: 700;
+         padding-bottom: 15px;
+      }
+   }
+   &__dotted{
+      &-3{
+         position: absolute;
+         left: 50px;
+         top: 70px;
+      }
+   }
+   &__btnwrapper{
+      &-3{
+         display: flex;
+         gap: 30px;
+         @media #{$sm}{
+            flex-wrap: wrap;
+            gap: 20px;
+         }
+      }
+   }
+}
+.underline-style{
+   color: var(--primary-3);
+   text-decoration: underline;
+   text-decoration-color: #ff315746;
+   text-underline-offset: 5px;
+}
+.btn-ractangle{
+   background: var(--primary-3);
+   color: var(--white);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+   padding: 16px 24px;
+   text-transform: capitalize;
+   &.ract-2{
+      background: #002E3B;
+   }
+   i{
+      padding-left: 7px;
+   }
+}
+
+/*----------------------------------------*/
+/*  3. ACHIEVEMENT CSS START
+/*----------------------------------------*/
+.achievement{
+   &__area{
+      &-3{
+         padding-bottom: 120px;
+         position: relative;
+         .shape-1{
+            position: absolute;
+            left: 60px;
+            @media #{$lg}{
+               display: none;
+            }
+         }
+         @media #{$lg}{
+            padding-bottom: 60px;
+         }
+         .btn-readmore {
+            font-size: 14px;
+            i{
+               padding-left: 10px;
+            }
+        }
+      }
+   }
+}
+/*----------------------------------------*/
+/*  4. ABOUT CSS START
+/*----------------------------------------*/
+
+.eduquest{
+   &__area{
+      &-3{
+         position: relative;
+      }
+   }
+   &__shape{
+      &-1{
+         position: absolute;
+         right: 0;
+      }
+   }
+   &__wrapper{
+      &-3{
+         display: grid;
+         grid-template-columns: 1.5fr 1fr;
+         gap: 40px;
+         position: relative;
+         @media #{$lg}{
+            grid-template-columns: 1fr 1fr;
+         }
+         @media #{$md}{
+            grid-template-columns: 1fr;
+         }
+      }
+   }
+   &__content{
+      &-3{
+         padding-top: 100px;
+         @media #{$sm}{
+            padding-top: 0;
+         }
+      }
+   }
+   &__diswrap{
+      padding-bottom: 10px;
+   }
+   &__aboutlist{
+      &-3{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        li{
+         color: #000;
+         font-family: $secondary_font;
+         font-size: 18px;
+         font-weight: 800;
+         line-height: 1.5;
+         margin-bottom: 10px;
+         position: relative;
+         padding-left: 30px;
+         &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            border-radius: 50px;
+            background: var(--secondary-3);
+         }
+        } 
+      }
+   }
+   &__aboutbottom{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      @media #{$sm}{
+         flex-wrap: wrap;
+      }
+   }
+   &__aboutusercontent{
+      display: flex;
+      gap: 24px;
+      .content{
+         h3{
+         font-size: 22px;
+         font-weight: 800;
+         }
+      }
+   }
+   &__left{
+      &-3{
+         position: relative;
+         .thumb{
+            position: relative;
+         }
+         .img-3{
+            position: absolute;
+            right: 0;
+            bottom: -100px;
+            @media #{$lg}{
+               display: none;
+            }
+         }
+      }
+   }
+}
+.about-counterbox {
+   display: flex;
+   gap: 30px;
+   border-radius: 0px 8px 8px 8px;
+   background: #FFF;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+   max-width: 312px;
+   padding: 15px;
+   transform: translateY(-50px);
+   .content{
+      h3{
+      font-family: $secondary_font;
+      font-size: 48px;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--primary-3);
+      }
+      span{
+         color: #002935;
+         font-family: $secondary_font;
+         font-size: 18px;
+         font-weight: 800;
+         line-height: 1.2;
+      }
+   }
+}
+
+/*----------------------------------------*/
+/*  5. CATEGORY CSS START
+/*----------------------------------------*/
+.category{
+   &__area{
+      &-3{
+         margin-top: 235px;
+         padding-bottom: 150px;
+         @media #{$lg}{
+            margin-top: 50px;
+            padding-bottom: 50px;
+         }
+      }
+   }
+   &__wrapper{
+      &-3{
+         background: #002935;
+         padding: 100px 50px;
+         border-radius: 12px;
+         position: relative;
+         @media #{$sm}{
+            padding: 50px 20px;
+         }
+      }
+   }
+   &__right{
+      &-3{
+         position: relative;
+         @media #{$md}{
+            padding-top: 60px;
+         }
+      }
+   }
+   &__boxicon{
+      border-radius: 8px;
+      background: #FFF;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      max-width: 245px;
+      text-align: center;
+      @media #{$sm}{
+         margin-bottom: 20px;
+         max-width: unset;
+      }
+      &.box-1{
+         margin-left: 70px;
+         @media #{$lg}{
+            margin-left: -100px;
+         }
+         @media #{$md}{
+            margin-left: 0;
+         }
+      }
+      &.box-2{
+         position: absolute;
+         right: 0;
+         top: -160px;
+         @media #{$md}{
+            top: -84px;
+         }
+         @media #{$sm}{
+            position: static;
+            margin-bottom: 20px;
+         } 
+      }
+      &.box-3{
+         position: absolute;
+         right: 0;
+         bottom: -160px;
+         @media #{$sm}{
+            position: static;
+            margin-bottom: 20px;
+         }
+      }
+      img{
+         padding-bottom: 30px;
+      }
+      .title{
+         font-size: 18px;
+         font-weight: 800;
+         line-height: 1.2;
+         padding-bottom: 5px;
+      }
+      .counter{
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 1.5;
+         display: block;
+         padding-bottom: 25px;
+      }
+   }
+   &__btnwrapper{
+      padding-top: 30px;
+   }
+   &__bottom{
+      &-3{
+         padding-top: 20px;
+         span{
+            color: var(--text-color, #001920);
+            font-family: $secondary_font;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 28px; /* 155.556% */
+         }
+      }
+   }
+}
+.plus-icon{
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50px;
+   text-align: center;
+   background: #FFEAEE;
+   display: inline-block;
+   font-size: 16px;
+   color: var(--secondary-3);
+}
+
+/*----------------------------------------*/
+/*  6. COURSE CSS START
+/*----------------------------------------*/
+
+.course{
+   &__area{
+      &-3{
+         background: rgba(250, 239, 242, 0.64);
+         padding-top: 120px;
+         padding-bottom: 120px;
+         position: relative;
+         z-index: 2;
+         @media #{$md}{
+            padding-top: 50px;
+            padding-bottom: 50px;
+         }
+      }
+   }
+   &__items{
+      &-3{
+         padding-top: 48px;
+      }
+   }
+   &__item{
+      &-3{
+         padding: 24px;
+         background: var(--white);
+         border-radius: 8px;
+         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+         padding-bottom: 40px;
+         margin-bottom: 24px;
+      }
+   }
+   &__itemtwo{
+      &-3{
+         display: flex;
+         gap: 24px;
+         background: var(--white);
+         border-radius: 8px;
+         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+         padding: 24px;
+         @media #{$md}{
+            margin-bottom: 24px;
+         }
+         @media #{$sm}{
+            flex-wrap: wrap;
+         }
+         img{
+            max-width: 220px;
+         }
+      }
+   }
+   &__thumb{
+      &-3{
+         position: relative;
+         img{
+            width: 100%;
+            border-radius: 8px;
+         }
+         .familer{
+            display: inline-block;
+            background: #002935;
+            padding: 5px 10px;
+            color: var(--white);
+            border-radius: 8px 0px 0px 0px;
+            position: absolute;
+            top: 0;
+            left: 0;
+         }
+      }
+   }
+   &__content{
+      &-3{
+         padding-top: 25px;
+         padding-bottom: 40px;
+      }
+   }
+   &__title{
+      &-3{
+         font-size: 22px;
+         font-weight: 700;
+         line-height: 1.3;
+         padding-bottom: 10px;
+         color: #001920;
+         display: block;
+      }
+   }
+   &__price{
+      &-3{
+         font-family: $secondary_font;
+         font-size: 22px;
+         font-weight: 800;
+         line-height: 1.2;
+         color: var(--primary-3); 
+      }
+   }
+   &__pricewrap{
+      &-3{
+         display: flex;
+         gap: 15px;
+      }
+   }
+   &__discountprice{
+      &-3{
+         font-family:$secondary_font;
+         font-size: 18px;
+         font-weight: 700;
+         color: var(--primary-3);
+      }
+   }
+   &__originalprice{
+      &-3{
+         font-family:$secondary_font;
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 1.5; 
+         text-decoration: line-through;
+      }
+   }
+   &__timeInfo{
+      &-3{
+         display: flex;
+         gap: 24px;
+         padding-bottom: 15px;
+         li{
+            font-family: $primary_font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.3;
+            i{
+               padding-right: 8px;
+            }
+         }
+      }
+   }
+   &__reviews{
+      &-3{
+         i{
+            color: #FFA41B;
+         }
+         span{
+            display: inline-block;
+            padding-left: 8px;
+         }
+      }
+   }
+   &__btn{
+      &-3{
+         display: inline-block;
+         padding: 10px 40px;
+         border-radius: 6px;
+         border: 1px solid #335862;
+         transition: .3s;
+         &:hover{
+            background: var(--secondary-3);
+            border: 1px solid transparent;
+            color: var(--white);
+         }
+         i{
+            padding-left: 5px;
+         } 
+      }
+   }
+   &__bottom{
+      &-3{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+      }
+   }
+   &__shape{
+      &-1{
+         position: absolute;
+         right: 0;
+         bottom: 0;
+      }
+   }
+}
+.circle-1{
+   width: 618px;
+   height: 618px;
+   border-radius: 618px;
+   background: rgba(255, 166, 33, 0.20);
+   filter: blur(250px);
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+   z-index: -2; 
+   @media #{$sm}{
+      display: none;
+   }
+}
+.circle-2{
+   width: 400px;
+   height: 400px;
+   border-radius: 400px;
+   background: rgba(255, 33, 86, 0.50);
+   filter: blur(250px);
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 0;
+   z-index: -2; 
+   @media #{$sm}{
+      display: none;
+   }
+}
+.sec-style-3{
+   text-align: center;
+   .subtitle{
+      font-family: $secondary_font;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1;
+      position: relative;
+      padding-left: 55px;
+      padding-right: 105px;
+      span{
+         color: var(--secondary-3);
+      }
+      &::before{
+         position: absolute;
+         content: "";
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         height: 3px;
+         width: 41px;
+         background: var(--primary-3);
+      }
+      &::after{
+         position: absolute;
+         content: "";
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         height: 3px;
+         width: 90px;
+         background: var(--primary-3);
+      }
+   }
+   .title{
+      font-size: 48px;
+      font-weight: 800;
+      line-height: 1.3;
+      color: #001920;
+      padding-bottom: 10px;
+      @media #{$md}{
+         font-size: 35px;
+      }
+   }
+}
+
+/*----------------------------------------*/
+/*  7. WHY CSS START
+/*----------------------------------------*/
+
+.why{
+   &__area{
+      &-3{
+         background: #F5F4F3;
+         padding-top: 120px;
+         padding-bottom: 120px;
+         position: relative;
+         @media #{$md}{
+            padding-top: 50px;
+            padding-bottom: 50px;
+         }
+      }
+   }
+   &__wrapper{
+      &-3{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         @media #{$md}{
+            grid-template-columns: 1fr;
+         }
+      }
+   }
+   &__thumb{
+      &-3{
+         padding-top: 30px;
+         @media #{$sm}{
+            padding-bottom: 50px;
+         }
+      }
+   }
+   &__singlewrapper{
+     &-3{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      @media #{$sm}{
+         grid-template-columns: 1fr;
+      }
+     }
+   }
+   &__itemsingle{
+      &-3{
+         border-radius: 8px;
+         background: var(--white);
+         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+         padding: 50px 25px;
+         max-width: 312px;
+         @media #{$sm}{
+            max-width: unset;
+         }
+         img{
+            padding-bottom: 30px;
+         }
+         .title{
+            padding-bottom: 20px;
+            font-family: $secondary_font;
+            font-size: 22px;
+            font-weight: 800;
+            line-height: 1.3;
+         }  
+      }
+   }
+}
+
+
+/*----------------------------------------*/
+/*  8. VIDEO CSS START
+/*----------------------------------------*/
+
+.video-icon-3{
+   display: inline-block;
+   height: 70px;
+   width: 70px;
+   line-height: 70px;
+   color: var(--white);
+   text-align: center;
+   border-radius: 50px;
+   background: var(--primary-3)
+}
+.video-icon-4{
+   @extend .video-icon-3;
+   height: 104px;
+   width: 104px;
+   line-height: 100px;
+   background: var(--primary-3);
+}
+.video{
+   &__thumb{
+      &-3{
+         position: relative;
+         z-index: 2;
+         img{
+            border-radius: 8px;
+         }
+      }
+   }
+   &__iconwraper{
+      &-3{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         border-radius: 50px;
+      }
+   }
+}
+
+/*----------------------------------------*/
+/*  9. COUNTER CSS START
+/*----------------------------------------*/
+
+.counter{
+   &__area{
+      &-3{
+         padding-top: 120px;
+      }
+   }
+}
+
+/*----------------------------------------*/
+/*  10. WORK PROCESSS CSS START
+/*----------------------------------------*/
+
+.work{
+   &__area{
+      &-3{
+         padding-bottom: 120px;
+         @media #{$md}{
+            padding-bottom: 15px;
+         }
+      }
+   }
+   &__items{
+      &-3{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 50px;
+         padding-top: 50px;
+         position: relative;
+         @media #{$md}{
+            grid-template-columns: 1fr 1fr;
+         }
+         @media #{$sm}{
+            grid-template-columns: 1fr;
+         }
+      }
+   }
+   &__item{
+      &-3{
+         text-align: center;
+      }
+   }
+   &__thumb{
+      &-3{
+         max-width: 250px;
+         margin: auto;
+         margin-bottom: 20px;
+         position: relative;
+         img{
+            width: 100%;
+            // clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         }
+         .step{
+            display: inline-block;
+            background: var(--primary-3);
+            color: var(--white);
+            font-family: $secondary_font;
+            font-size: 21.333px;
+            font-weight: 800;
+            line-height: 1.5;
+            border-radius: 50px;
+            width: 42px;
+            height: 42px;
+            line-height: 42px;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            outline: 2px dashed var(--secondary-3);
+            outline-offset: 8px;
+         }
+      }
+   }
+   &__title{
+      &-3{
+         color: #000;
+         font-family: $secondary_font;
+         font-size: 21.333px;
+         font-weight: 800;
+         line-height: 1.5;
+         padding-bottom: 10px; 
+      }
+   }
+}
+
+/*----------------------------------------*/
+/*  11. TESTIMONIAL PROCESSS CSS START
+/*----------------------------------------*/
+
+.testimonial{
+   &__wrapper{
+      &-3{
+         padding-top: 65px;
+         padding-bottom: 65px;
+         position: relative;
+         max-width: 1100px;
+         margin: auto;
+         &::before{
+            content: "";
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            width: calc(100% - 80px);
+            top: 0;
+            height: 100%;
+            background: #FFEAEE;
+            @media #{$sm}{
+               display: none;
+            }
+         }
+      }
+   }
+   &__secwrapper{
+      &-3{
+         padding-bottom: 30px;
+      }
+   }
+   &__item{
+      &-3{
+         border-radius: 8px;
+         background: var(--white);
+         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+         padding: 40px;
+      }
+   }
+   &__rating{
+      &-3{
+         padding-bottom: 10px;
+         i{
+            color: #FFA41B;
+         }
+      }
+   }
+   &__client{
+      &-3{
+         display: flex;
+         gap: 15px;
+         align-items: center;
+         padding-top: 25px;
+         .title{
+            font-family: $secondary_font;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 1.5;
+            color: #001920;
+         }
+      }
+   }
+   &__arrowbtn{
+      &-3{
+         display: flex;
+         gap: 15px;
+         padding-top: 48px;
+         justify-content: center;
+         align-items: center;
+      }
+   }
+}
+.test-button-prev{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   color: var(--white);
+   background: #335862;
+   justify-content: center;
+   border-radius: 50px;
+}
+.test-button-next{
+   @extend .test-button-prev;
+}
+
+.count__area-3{
+   background: var(--green);
+   padding-top: 214px;
+   padding-bottom: 120px;
+   position: relative;
+   margin-top: -150px;
+   @media #{$lg}{
+      padding-top: 100px;
+      padding-bottom: 60px;
+      margin-top: -50px;
+   }
+}
+.count-1{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+.count-2{
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+.progress-line{
+   position: absolute;
+   top: 41%;
+   @media #{$md}{
+      display: none;
+   }
+}
+.testimonial-icon-3 {
+   display: flex;
+   gap: 20px;
+}
+.about-circle{
+   position: absolute;
+   top: 130px;
+   right: 180px;
+   z-index: 2;
+}
+
+/*----------------------------------------*/
+/*   SEARCH CSS START
+/*----------------------------------------*/
+
+.search__top{
+   .search{
+      &__form-two{
+         max-width: 800px;
+         margin: auto;
+         margin-top: 250px;
+         form{
+            position: relative;
+            input{
+               width: 100%;
+               height: 60px;
+               border: 0;
+               border-bottom: 2px solid var(--gray-2);
+               background: transparent;
+               color: var(--white);
+               &::placeholder{
+                  color: var(--gray-2);
+                  font-size: 12px;
+               }
+               &:focus{
+                  outline: 0;
+               }
+            }
+         }
+      }
+   }
+   .offcanvas.offcanvas-top {
+      height: 100vh;
+      background: var(--black);
+   }
+   .btn-close {
+      opacity: 1;
+      filter: contrast(0);
+      cursor: pointer;
+   }
+   .offcanvas-header {
+      justify-content: flex-end;
+   }
+}
+.light-green{
+   background: rgba(0, 182, 189, 0.08) !important;
+}
+.light-blue{
+   background: rgba(153, 146, 255, 0.08) !important;
+}
+.cat-1{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 2;
+}
+.cat-2{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: 2;
+}

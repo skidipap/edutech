@@ -1,0 +1,63 @@
+/*----------------------------------------*/
+/*  1. HEADER CSS START
+/*----------------------------------------*/
+
+.header{
+    &__area{
+        &-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1500px;
+            margin-left: auto;
+            padding: 0 100px;
+        }
+        &-social{
+            display: flex;
+            gap: 20px;
+            li{
+                a{
+                    color: var(--black-2);
+                }
+            }
+        }
+        &-contactlist{
+            display: flex;
+            gap: 20px;
+            li{
+                i{
+                    padding-right: 10px;
+                }
+            }
+        }
+        &-menutop{
+            display: flex;
+            gap: 20px;
+            li{
+                a{
+                    text-transform: capitalize;
+                    color: var(--black-2);
+                }
+            }
+        }
+        &-bottom{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-mainmenu{
+            display: flex;
+            gap: 15px;
+        }
+        &-cart{
+            position: relative;
+            width: 30px;
+            span{
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: var(--black-2);
+            }
+        }
+    }
+}

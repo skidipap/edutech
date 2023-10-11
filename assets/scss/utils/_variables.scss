@@ -1,0 +1,86 @@
+/*-----------------------------------------------------------------------------------
+
+  Theme Name: Eduquest - Education HTML5 Template
+  Author: Eduquest
+  Support: Eduquest.dev@gmail.com
+  Description: Eduquest – is a Education HTML5 Template that comes with high-quality 2 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
+  Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/*********** TABLE OF CONTENTS **************
+
+  01. VARIBALES DECLARARION
+
+**********************************************/
+
+
+/*----------------------------------------*/
+/*  01. VARIBALES DECLARARION
+/*  02. HEADER AREA
+/*----------------------------------------*/
+
+
+:root {
+  // Colors
+  --primary: #FF3158;
+  --secondary: #f50366;
+
+
+  --white: #fff;
+  --white-2: #F5F5F5;
+
+  --black: #000;
+  --black-2: #001D25;
+  --black-3: #1F242C;
+  --black-4: #67687A;
+  --black-5: #001920;
+  --black-6: #070F2C;
+  --black-7: #111010;
+
+
+  --green: #002935;
+  --green-2: #1A434F;
+  --green-3: #002E3B;
+  --green-4: #335862;
+
+  --gray-2: #F4F5FA;
+  --gray-3: #333F4D;
+  --gray-4: #B3C0C4;
+  --gray-5: #4A5355;
+  --gray-6: #E6E8E9;
+  --gray-7: #D9DDDE;
+  --gray-8: #80979D;
+
+  --yellow: #F9C02F;
+  --yellow-2: #FFA41B;
+
+  --pink: #FFEAEE;
+  --pink-2: #FFD6DE;
+  --primary-3: #FF3158;
+  --secondary-3: #f50366;
+
+}
+
+
+/*----------------------------------------*/
+/*  01. GOOGLE FONTS
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@200;300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
+
+$primary_font: 'DM Sans', sans-serif;
+$secondary_font: 'Manrope', sans-serif;
+$font_inter: 'Inter', sans-serif;
+
+/*----------------------------------------*/
+/*  01. RESPONSIVE VARIABLES
+/*----------------------------------------*/
+$xxxl: '(min-width: 1920px)';
+$xxl: '(max-width: 1919px)';
+$xl: '(max-width: 1399px)';
+$lg: '(max-width: 1199px)';
+$md: '(max-width: 991px)';
+$sm: '(max-width: 767px)';
+$xs: '(max-width: 574px)';

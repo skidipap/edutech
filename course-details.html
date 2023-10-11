@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 Template">
+
+  <!-- Site Title -->
+  <title>Course Details</title>
+
+  <!-- Site Favicon -->
+  <link rel="shortcut icon" href="assets/imgs/logo/favicon.png" type="image/x-icon">
+
+ <!-- All CSS Files -->
+ <link rel="stylesheet" href="assets/css/all.min.css">
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+ <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+ <link rel="stylesheet" href="assets/css/magnifi.css">
+ <link rel="stylesheet" href="assets/css/aos.css">
+ <link rel="stylesheet" href="assets/css/master.css">
+ <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__inner">
+      <div class="offcanvas__top">
+        <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+        <button id="offcanvas_close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="offcanvas__menu">
+        <div class="offcanvas-menu">
+          <ul>
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Service</a>
+            </li>
+            <li><a href="#">portfolio</a>
+            </li>
+            <li><a href="#">team</a>
+            </li>
+            <li><a href="#">blog</a>
+            </li>
+            <li><a href="#">others</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+  <!-- Cart area start -->
+  <div class="offcanvas offcanvas-end cart__offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">SHOPPING CART</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="cart__list">
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+        <div class="cart__item">
+          <div class="image">
+            <a href="">
+              <img src="assets/imgs/home-1/rw.png" alt="Image">
+            </a>
+          </div>
+          <div class="info">
+            <a href="">
+              <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+            </a>
+            <p>1x$500</p>
+          </div>
+          <button class="delete">X</button>
+        </div>
+      </div>
+
+      <div class="cart__other">
+        <p>SUBTOTAL:  <span>$121.00</span></p>
+        <a href="">view cart</a>
+        <a href="">checkout</a>
+      </div>
+    </div>
+  </div>
+  <!-- Cart area end -->
+
+  <!-- Header area start -->
+  <header class="header__area-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="header__inner">
+            <div class="header__left">
+              <div class="header__logo">
+                <a href="">
+                  <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+                </a>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__btm">
+                <div class="header__menu">
+                  <div class="main-menu">
+                    <ul>
+                      <li class="has-dropdown"><a href="#">Home</a>
+                        <ul class="main-dropdown">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="index-2.html">home 2</a></li>
+                          <li><a href="index-3.html">home 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="has-dropdown"><a href="#">courses</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="about.html">About</a>
+                      </li>
+                      <li class="has-dropdown"><a href="#">pages</a>
+                        <ul class="main-dropdown">
+                          <li><a href="course.html">Course</a></li>
+                          <li><a href="course-2.html">Course v2</a></li>
+                          <li><a href="course-details.html">Course Details</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blog-listing.html">Blog v.2</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                          <li><a href="product-details.html">Shop Details</a></li>
+                          <li><a href="team.html">team</a></li>
+                          <li><a href="faq.html">Faq</a></li>
+                          <li><a href="contact.html">contact</a></li>
+                          <li><a href="gallary.html">Gallary</a></li>
+                          <li><a href="404.html">404</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header__other">
+                  <div class="header__lang">
+                    <div class="dropdown">
+                      <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Eng</button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Eng</a></li>
+                        <li><a class="dropdown-item" href="#">France</a></li>
+                        <li><a class="dropdown-item" href="#">spanish</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="header__cart">
+                    <button class="cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </div>
+                  <div class="header__search">
+                    <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="search-close"><i class="fa-solid fa-xmark"></i></button>
+                  </div>
+                  <div class="header__btn">
+                    <a href="" class="btn-ractangle">Join Now</a>
+                  </div>
+                  <div class="mobile__menu">
+                    <button class="menu-icon"><i class="fa-solid fa-bars"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container position-relative">
+      <div class="search__form">
+        <form action="#">
+          <input type="text" name="s" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <main> 
+    
+     <!-- breadcrumb area  -->
+     <div class="breadcrumb__area">
+      <img class="shape-2" src="assets/imgs/inner/bradcrumb-shape-2.png" alt="shape-1">
+      <img class="shape-3"  src="assets/imgs/inner/dotted-1.png" alt="shape-1">
+      <div class="container">
+        <h2 class="breadcrumb__title">Courses Details</h2>
+        <ul class="breadcrumb__menu">
+          <li><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Page</a><i class="fa-solid fa-chevron-right"></i></li>
+          <li><a href="#">Courses Details</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /breadcrumb area  -->
+
+
+    <!-- course area  -->
+    <section class="course__area-2 course__area-3 pt-120 pb-125">
+        <div class="container">
+            <div class="course__detailsWrp">   
+                <div class="course__detailsLeft"> 
+                    <div class="course__detailsThumb">
+                      <img src="assets/imgs/inner-2/thumb/single-img.jpg" alt="Post">
+                      <div class="course__detailsInfo"> 
+                          <div class="course__authorBox">
+                            <div class="course__author-img">
+                              <img src="assets/imgs/inner-2/thumb/author.png" alt="Image">
+                            </div>
+                            <div class="author__info-3">
+                              <span class="course__author-name">Leslie Alexander</span>
+                              <span class="course__author-degination">Sr. Instructor</span>
+                            </div>
+                          </div>
+                          <div class="course__detailsCategory">
+                            <span>Category :</span>
+                            <p>Design & Development</p>
+                          </div>
+                          <div class="course__detailsReview">
+                            <span>20 Reviews:</span> <br>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div> 
+                      </div>
+                    </div>   
+                    <div class="course__detailsContent">
+                      <h2>Overview</h2>
+                      <p>our worldwide annual spend on digital advertising surpassing $325 billion, it’s no surprise  that different
+                        apches to online marketing are becoming available. One of these new approaches is performance 
+                        or digital performance marketing. Keep reading to learn all about performance marketing, from how it works to it compares to digital marketing. Plus, get insight into the benefits and risks of performance marketing and how itcan affect your company’s long-term success and profitability. Performance marketing is an approach to digitalmarketing or advertising where businesses only pay when a specific result occurs. This result could be a new lead,sale, or other outcome agreed upon by the advertiser and business. Performance marketing involves channels such as affiliate marketing, online advertising.</p>
+                        <div class="course__detailslistwrap">
+                          <ul class="blog__detailslist">
+                            <li>Another way to promote reflection, not perfection</li>
+                            <li>This practice will help students think interdependently</li>
+                            <li>Self-reflection requires courage and patience</li>
+                            <li>Teaching students to be self-reflective will give them a skill</li> 
+                          </ul>
+                        </div>
+                        <h2>Benefits of the Course</h2>
+                        <div class="course__detailslistwrap">
+                          <ul class="blog__detailslist pt-0">
+                            <li>Understand the fundamentals of healthy dieting (calories, protein, carbs, fat, vitamins & minerals)</li>
+                            <li>Create a diet that is perfect for your needs and lifestyle</li>
+                            <li>Learn when, what and how much you should eat for optimal body composition</li>
+                            <li>Build more muscle by optimizing your meal plan</li>
+                            <li>Lose fat faster by optimizing your meal plan</li>
+                            <li>Improve immunity and energy levels with the right vitamins and minerals</li> 
+                          </ul>
+                        </div>
+                        <div class="course__detailsthumb">
+                          <img src="assets/imgs/inner-2/thumb/details-img.jpg" alt="Image">
+                        </div>
+                        <h2>What you'll learn</h2>
+                        <div class="course__detailslistwrap">
+                          <ul class="blog__detailslist pt-0">
+                            <li>Understand the fundamentals of healthy dieting (calories, protein, carbs, fat, vitamins & minerals)</li>
+                            <li>Create a diet that is perfect for your needs and lifestyle</li>
+                            <li>Learn when, what and how much you should eat for optimal body composition</li>
+                            <li>Build more muscle by optimizing your meal plan</li>
+                            <li>Lose fat faster by optimizing your meal plan</li>
+                            <li>Improve immunity and energy levels with the right vitamins and minerals</li> 
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="course__detailsfaqtitle">
+                      <h2>Topics for this Course</h2>
+                      <ul>
+                        <li> <img src="assets/imgs/inner/icon-1.png" alt="icon"> 30Module</li>
+                        <li> <img src="assets/imgs/inner/icon-2.png" alt="icon"> 4 Live class</li>
+                        <li> <img src="assets/imgs/inner/icon-3.png" alt="icon"> 20 Assignment</li>
+                        <li> <img src="assets/imgs/inner/icon-4.png" alt="icon"> 4 Test Project</li>
+                      </ul>
+                    </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="course__sidebarTitle" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                              <div class="course__headerfaq">
+                                <div class="course__headerfaqleft">
+                                  <span>Module</span>
+                                  <h2 class="course__headercount">01</h2>
+                                </div>
+                                <div class="right">
+                                  <h2 class="course__headerfaqtitle">Brainstorming on Problem Solving</h2>
+                                  <ul class="course__headercate">
+                                    <li> <img src="assets/imgs/inner/icon-1.png" alt="icon"> 30Module</li>
+                                    <li> <img src="assets/imgs/inner/icon-2.png" alt="icon"> 4 Live class</li>
+                                    <li> <img src="assets/imgs/inner/icon-3.png" alt="icon"> 20 Assignment</li>
+                                    <li> <img src="assets/imgs/inner/icon-4.png" alt="icon"> 4 Test Project</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> 
+                              <ul class="course__lecturelist">
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.1 </span><span class="lecture">UI UX Fundamental & Figma Intro</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.2 </span><span class="lecture">Assignment 1 (UI UX Fundamental & Figma)</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.3 </span><span class="lecture">Human Centred Design & Figma basic</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.4 </span><span class="lecture">Module 1 Quiz</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.5 </span><span class="lecture">Assignment 2 (UI UX Fundamental & Figma )</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.6 </span><span class="lecture">Module 1 live Test</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="course__sidebarTitle" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> 
+                              <div class="course__headerfaq">
+                                <div class="course__headerfaqleft">
+                                  <span>Module</span>
+                                  <h2 class="course__headercount">02</h2>
+                                </div>
+                                <div class="right">
+                                  <h2 class="course__headerfaqtitle">Brainstorming on Problem Solving</h2>
+                                  <ul class="course__headercate">
+                                    <li> <img src="assets/imgs/inner/icon-1.png" alt="icon"> 30Module</li>
+                                    <li> <img src="assets/imgs/inner/icon-2.png" alt="icon"> 4 Live class</li>
+                                    <li> <img src="assets/imgs/inner/icon-3.png" alt="icon"> 20 Assignment</li>
+                                    <li> <img src="assets/imgs/inner/icon-4.png" alt="icon"> 4 Test Project</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> 
+                              <ul class="course__lecturelist">
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.1 </span><span class="lecture">UI UX Fundamental & Figma Intro</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.2 </span><span class="lecture">Assignment 1 (UI UX Fundamental & Figma)</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.3 </span><span class="lecture">Human Centred Design & Figma basic</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.4 </span><span class="lecture">Module 1 Quiz</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.5 </span><span class="lecture">Assignment 2 (UI UX Fundamental & Figma )</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.6 </span><span class="lecture">Module 1 live Test</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="course__sidebarTitle" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              <div class="course__headerfaq">
+                                <div class="course__headerfaqleft">
+                                  <span>Module</span>
+                                  <h2 class="course__headercount">03</h2>
+                                </div>
+                                <div class="right">
+                                  <h2 class="course__headerfaqtitle">Brainstorming on Problem Solving</h2>
+                                  <ul class="course__headercate">
+                                    <li> <img src="assets/imgs/inner/icon-1.png" alt="icon"> 30Module</li>
+                                    <li> <img src="assets/imgs/inner/icon-2.png" alt="icon"> 4 Live class</li>
+                                    <li> <img src="assets/imgs/inner/icon-3.png" alt="icon"> 20 Assignment</li>
+                                    <li> <img src="assets/imgs/inner/icon-4.png" alt="icon"> 4 Test Project</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="course__lecturelist">
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.1 </span><span class="lecture">UI UX Fundamental & Figma Intro</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.2 </span><span class="lecture">Assignment 1 (UI UX Fundamental & Figma)</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.3 </span><span class="lecture">Human Centred Design & Figma basic</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.4 </span><span class="lecture">Module 1 Quiz</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.5 </span><span class="lecture">Assignment 2 (UI UX Fundamental & Figma )</span></li>
+                                <li><span><img src="assets/imgs/inner/icon-4.png" alt="icon"> Lecture 1.6 </span><span class="lecture">Module 1 live Test</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                    <div class="cmt__form">
+                      <div class="thumb">
+                        <img src="assets/imgs/inner/cmt.png" alt="thumb">
+                      </div>
+                      <div class="content">
+                        <h3>Cameron Williamson</h3>
+                        <span class="v-post">Visitsite: Itech-themes</span>
+                        <p class="dis">Self-reflection requires courage and patience. Teaching students to be self- them a skill that will help them throughout their lives.</p>
+                        <ul class="course__authorsocial pt-0 justify-content-start">
+                          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h2 class="course__feedbacktitle">Student Feedback</h2>
+                    <div class="course__ratingbox">
+                      <div class="course__ratingboxleft">
+                        <h2 class="title">4.5</h2>
+                        <div class="course__rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Total 3 Student Ratings</p>
+                      </div>
+                      <div class="course__ratingboxright">
+                        <ul class="course__ratingprogress">
+                          <li>5<span class="line"></span>2 Rating</li>
+                          <li>5<span class="line"></span>2 Rating</li>
+                          <li>5<span class="line"></span>2 Rating</li>
+                          <li>5<span class="line"></span>2 Rating</li>
+                          <li>5<span class="line"></span>2 Rating</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                <div class="course__detailsRight"> 
+                  <div class="course__video">
+                    <div class="course__videooverview">
+                      <img src="assets/imgs/inner/course-video.jpg" alt="playicon">
+                      <a class="blog__detailvideoicon video-link" href="https://youtu.be/pNje3bWz7V8"><i class="fa-solid fa-play"></i></a>
+                    </div>
+                    <p class="course__pricing">Course Pricing</p>
+                    <p class="course__pricingOFF">$65.00<span>$90.00</span></p>
+                    <p class="course__featuresTitle">Course Features</p>
+                    <ul class="coursetwo__list">
+                      <li>Lectures 6</li>
+                      <li>Quizzes 1</li>
+                      <li>Duration 10 weeks</li>
+                      <li>Skill level All levels</li>
+                      <li>Language English</li>
+                      <li>Students 340</li>
+                      <li>Assessments Yes</li>
+                    </ul>
+                    <button class="course__btnenroll">Enroll Now</button>
+                    <button class="course__addtocart">Add to Cart</button>
+                    <span class="course__gtitle">30 Day Money Back Gurantee</span>
+                  </div> 
+                  <div class="course__recentPost"> 
+                    <div class="course__recentPost">
+                      <h3>Recent Courses</h3>
+                    </div> 
+                    <div class="course__recent">
+                         <div class="course__recentItem">
+                          <div class="course__recentLeft">
+                            <img src="assets/imgs/inner-2/thumb/recent-1.png" alt="Image">
+                          </div>
+                          <div class="course__recentRight">
+                            <a href="course.html">Learn Figma to Cms Beginner to Advanced</a>
+                            <span>$80.00</span>
+                          </div>
+                         </div>
+                         <div class="course__recentItem">
+                          <div class="course__recentLeft">
+                            <img src="assets/imgs/inner-2/thumb/recent-1.png" alt="Image">
+                          </div>
+                          <div class="course__recentRight">
+                            <a href="course.html">Learn Figma to Cms Beginner to Advanced</a>
+                            <span>$80.00</span>
+                          </div>
+                         </div>
+                         <div class="course__recentItem">
+                          <div class="course__recentLeft">
+                            <img src="assets/imgs/inner-2/thumb/recent-2.png" alt="Image">
+                          </div>
+                          <div class="course__recentRight">
+                            <a href="course.html">Learn Figma to Cms Beginner to Advanced</a>
+                            <span>$20.00</span>
+                          </div>
+                         </div>
+                         <div class="course__recentItem">
+                          <div class="course__recentLeft">
+                            <img src="assets/imgs/inner-2/thumb/recent-3.png" alt="Image">
+                          </div>
+                          <div class="course__recentRight">
+                            <a href="course.html">Learn Figma to Cms Beginner to Advanced</a>
+                            <span>$35.00</span>
+                          </div>
+                         </div>
+                    </div>
+                  </div>  
+              </div> 
+            </div>
+            <div class="course__related">
+              <div class="course__related-header">
+                <h2>Related Course</h2>
+                <div class="course__related-btn">
+                  <div class="course-related-next"><i class="fa-solid fa-arrow-left"></i></div>
+                  <div class="course-related-prev"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+              <div class="swiper course-related-active">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="course__item-inner">
+                      <div class="course__img-2">
+                          <img src="assets/imgs/inner-2/course/1.jpg" alt="Image"> 
+                          <span><i class="fa-solid fa-star"></i>4.5 (120)</span>
+                      </div> 
+                      <span class="course__category-title">Mathematics</span> 
+                          <h6><a href="course.html">Create a Digital Illustration With Procreate</a></h6> 
+                      <div class="course__info">
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-layer-group"></i> 15 Lessons</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-clock"></i> 4h 30m 15s</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-user"></i> Beginner</span>
+                          </div>
+                      </div>
+                      <div class="course__btm">
+                          <div class="course__btm-left">
+                              <img src="assets/imgs/inner-2/course/author.png" alt="Image">
+                              <span>Jerome Bell</span>
+                          </div>
+                          <div class="course__btm-right">
+                              <span class="course__price offer-price">$79.00</span>
+                              <span class="course__price">$79.00</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="course__item-inner">
+                      <div class="course__img-2">
+                          <img src="assets/imgs/inner-2/course/1.jpg" alt="Image"> 
+                          <span><i class="fa-solid fa-star"></i>4.5 (120)</span>
+                      </div> 
+                      <span class="course__category-title">Mathematics</span> 
+                          <h6><a href="course.html">Create a Digital Illustration With Procreate</a></h6> 
+                      <div class="course__info">
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-layer-group"></i> 15 Lessons</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-clock"></i> 4h 30m 15s</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-user"></i> Beginner</span>
+                          </div>
+                      </div>
+                      <div class="course__btm">
+                          <div class="course__btm-left">
+                              <img src="assets/imgs/inner-2/course/author.png" alt="Image">
+                              <span>Jerome Bell</span>
+                          </div>
+                          <div class="course__btm-right">
+                              <span class="course__price offer-price">$79.00</span>
+                              <span class="course__price">$79.00</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="course__item-inner">
+                      <div class="course__img-2">
+                          <img src="assets/imgs/inner-2/course/1.jpg" alt="Image"> 
+                          <span><i class="fa-solid fa-star"></i>4.5 (120)</span>
+                      </div> 
+                      <span class="course__category-title">Mathematics</span> 
+                          <h6><a href="course.html">Create a Digital Illustration With Procreate</a></h6> 
+                      <div class="course__info">
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-layer-group"></i> 15 Lessons</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-clock"></i> 4h 30m 15s</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-user"></i> Beginner</span>
+                          </div>
+                      </div>
+                      <div class="course__btm">
+                          <div class="course__btm-left">
+                              <img src="assets/imgs/inner-2/course/author.png" alt="Image">
+                              <span>Jerome Bell</span>
+                          </div>
+                          <div class="course__btm-right">
+                              <span class="course__price offer-price">$79.00</span>
+                              <span class="course__price">$79.00</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="course__item-inner">
+                      <div class="course__img-2">
+                          <img src="assets/imgs/inner-2/course/1.jpg" alt="Image"> 
+                          <span><i class="fa-solid fa-star"></i>4.5 (120)</span>
+                      </div> 
+                      <span class="course__category-title">Mathematics</span> 
+                          <h6><a href="course.html">Create a Digital Illustration With Procreate</a></h6> 
+                      <div class="course__info">
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-layer-group"></i> 15 Lessons</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-clock"></i> 4h 30m 15s</span>
+                          </div>
+                          <div class="course__info-item">
+                              <span><i class="fa-solid fa-user"></i> Beginner</span>
+                          </div>
+                      </div>
+                      <div class="course__btm">
+                          <div class="course__btm-left">
+                              <img src="assets/imgs/inner-2/course/author.png" alt="Image">
+                              <span>Jerome Bell</span>
+                          </div>
+                          <div class="course__btm-right">
+                              <span class="course__price offer-price">$79.00</span>
+                              <span class="course__price">$79.00</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section> 
+    <!-- /course area  -->
+    
+
+
+  </main>
+
+  <!-- Footer area start  -->
+  <footer class="footer__area-2 pt-120">
+    <div class="container">
+      <div class="footer__top-2">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="newsletter__content-2">
+              <h2 class="title">App Is Available For Free <br> Let’s Learn Together</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__app">
+              <p>SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors particularly
+                important .</p>
+
+              <div class="footer__app-list">
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-google-play"></i>
+                    </div>
+                    <div class="info">
+                      <p>Get it on</p>
+                      <h4>Google Play</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class="footer__app-item">
+                  <a href="#">
+                    <div class="img">
+                      <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <div class="info">
+                      <p>Download on the</p>
+                      <h4>App Store</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__mid pb-125">
+        <div class="row">
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__logo-2">
+              <img src="assets/imgs/home-1/logo-light.png" alt="Logo">
+              <p>SSL for your site is a no-brainer best practice. Not only lMS Website site.</p>
+              <div class="newsletter__form-2">
+                <input type="email" name="email" placeholder="Enter email Address">
+                <button class="submit" type="submit">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Useful Links</h2>
+              <ul class="quick-link">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html">Resource Center</a></li>
+                <li><a href="contact.html">Careers</a></li>
+                <li><a href="team.html">Instructor</a></li>
+                <li><a href="contact.html">Become A Teacher</a></li>
+                <li><a href="course.html">Categories</a></li>
+                <li><a href="course.html">All Courses</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <div class="footer__links">
+              <h2 class="footer__title">Courses</h2>
+              <ul class="quick-link">
+                <li><a href="course.html">Digital Marketing</a></li>
+                <li><a href="course.html">Design & Branding</a></li>
+                <li><a href="course.html">Storytelling & Voice Over</a></li>
+                <li><a href="course.html">News & Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="course.html">Pricing</a></li>
+                <li><a href="about.html">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8">
+            <div class="footer__posts">
+              <h2 class="footer__title">Recent Post</h2>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+              <div class="footer__post">
+                <div class="image">
+                  <a href="blog-details.html">
+                    <img src="assets/imgs/home-1/rw-2.png" alt="Image">
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="blog-details.html">
+                    <h3 class="title">Education Geometry New Ranking Strong Year-2023</h3>
+                  </a>
+                  <p><i class="fa-solid fa-calendar-days"></i> Feb 18, 20223</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__btm-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer__copyright-2">
+              <p>©copyright 2023 EduQuest. Designed By itec-themes</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__social-2">
+              <p>Flow Us On</p>
+              <ul class="social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer area end  -->
+
+
+
+  <!-- All JS Files -->
+  <script src="assets/js/jquery-3.6.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

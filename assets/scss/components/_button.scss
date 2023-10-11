@@ -1,0 +1,72 @@
+.btn {
+  &-ractangle {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding: 12px 24px;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: var(--white);
+    font-family: $secondary_font;
+
+    &:hover {
+      color: var(--white);
+      background-color: var(--green);
+    }
+
+    &-2 {
+      color: var(--white);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.5;
+      border-radius: 6px;
+      padding: 15px 25px;
+      font-weight: 400;
+      display: inline-block;
+      border: 1px solid var(--primary);
+      background-color: var(--primary);
+
+      &:hover {
+        color: var(--black);
+        background-color: transparent;
+      }
+
+      img {
+        padding-left: 3px;
+      }
+    }
+  }
+
+  &-border {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    border-radius: 6px;
+    padding: 15px 25px;
+    font-weight: 400;
+    display: inline-block;
+    border: 1px solid currentColor;
+
+    &:hover {
+      color: var(--primary);
+    }
+
+    img {
+      padding-left: 3px;
+    }
+  }
+
+  &-readmore {
+    color: var(--gray-5);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    font-family: $secondary_font;
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}
